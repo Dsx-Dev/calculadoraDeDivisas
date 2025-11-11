@@ -3,16 +3,17 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
+    <orderEntry type="module-library" exported="" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/gson-2.13.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/gson-2.11.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" exported="" scope="TEST" name="google.code.gson" level="project" />
+    <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

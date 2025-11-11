@@ -1,4 +1,4 @@
-package servicios;
+package Servicios;
 
 // ═══════════════════════════════════════════════════════════
 // IMPORTS NECESARIOS
@@ -8,7 +8,7 @@ import java.net.URL;                 // Para crear y manejar URLs
 import java.io.BufferedReader;       // Para leer la respuesta línea por línea
 import java.io.InputStreamReader;    // Para convertir bytes en texto
 import com.google.gson.Gson;         // Para convertir JSON a objetos Java
-import modelos.RespuestaAPI;         // Nuestro modelo de datos
+import Modelos.RespuestaAPI;         // Nuestro modelo de datos
 
 /**
  * 🐬 DivisasDsx - Servicio de conexión con ExchangeRate-API
@@ -115,7 +115,7 @@ public class ConexionAPI {
             // Abrir conexión HTTP
             HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
 
-            // Configurar método de petición como GET (obtener datos)
+            // Configurar metodo de petición como GET (obtener datos)
             conexion.setRequestMethod("GET");
 
             // Establecer tiempo máximo para conectar

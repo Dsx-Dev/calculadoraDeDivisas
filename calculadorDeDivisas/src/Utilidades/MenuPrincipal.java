@@ -1,12 +1,12 @@
-package utilidades;
+package Utilidades;
 
 // ═══════════════════════════════════════════════════════════
 // IMPORTS NECESARIOS
 // ═══════════════════════════════════════════════════════════
 import java.util.Scanner;
 import java.util.InputMismatchException;
-import servicios.ConexionAPI;
-import modelos.RespuestaAPI;
+import Servicios.ConexionAPI;
+import Modelos.RespuestaAPI;
 
 /**
  * 🐬 DivisasDsx - Menú principal de la aplicación

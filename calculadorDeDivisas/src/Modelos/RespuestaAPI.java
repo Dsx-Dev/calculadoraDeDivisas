@@ -1,4 +1,4 @@
-package modelos;
+package Modelos;
 
 /**
  * 🐬 DivisasDsx - Modelo de datos para la respuesta de la API

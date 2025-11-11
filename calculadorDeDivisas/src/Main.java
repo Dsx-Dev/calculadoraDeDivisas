@@ -1,5 +1,5 @@
-import servicios.ConexionAPI;
-import utilidades.MenuPrincipal;
+import Servicios.ConexionAPI;
+import Utilidades.MenuPrincipal;
 
 public class Main {
 
@@ -10,15 +10,15 @@ public class Main {
         mostrarBannerInicio();
 
         System.out.println("🔧 Inicializando servicio de API...");
-        ConexionAPI conexionAPI = new ConexionAPI(API_KEY);
+        ConexionAPI ConexionAPI = new ConexionAPI(API_KEY);
         System.out.println("✅ Servicio inicializado correctamente");
 
-        if (!conexionAPI.verificarConexion()) {
+        if (!ConexionAPI.verificarConexion()) {
             mostrarErrorConexion();
             return;
         }
 
-        MenuPrincipal menu = new MenuPrincipal(conexionAPI);
+        MenuPrincipal menu = new MenuPrincipal(ConexionAPI);
         menu.iniciar();
     }
 
