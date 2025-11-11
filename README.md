@@ -166,7 +166,7 @@ Las contribuciones son bienvenidas:
 ## 👨‍💻 Autor
 
 **Tu Nombre**
-- GitHub: [@DsxDev](https://github.com/tu-usuario)
+- GitHub: [@Dsx-Dev](https://github.com/Dsx-Dev)
 - LinkedIn: [https://www.linkedin.com/in/daniel-fernando-caro-dorado-492757360/](https://linkedin.com/in/tu-perfil)
 - Email: dannycaro01@hotmail.com
 
